@@ -72,14 +72,20 @@ header nav ul li a {
     flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: row;
+    
 }
 
 .intro p {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: right;
-    font-size: 25px;
+    width: 65%;
+    
 }
+
+.intro h2 {
+    width: 30%;
+    font-size: 35px;
+}
+
+
 /* WorK */
 .work {
     flex-wrap: wrap;
@@ -89,46 +95,50 @@ header nav ul li a {
   
 
 }
+
+.work h2 {
+    font-size: 35px;
+    width: 10%;
+}
+
 .run-buddy h3 {
     background-image: url("../images/hero-bg.jpeg");
     background-size: cover;
     background-position: 100%;
-    height: 200px;
-    padding: 30px 30px 30px 250px;
-
-    
+    height: 400px;
+    width: 90%;
 }
 
 .homework1 h3 {
     background-image: url("../images/homework1.png");
     background-size: cover;
     background-position: 100%;
-    height: 200px;
-    padding: 30px 30px 30px 250px;
+    height: 600px;
+    width: 700px;
 }
 
 .assignment1 h3 {
     background-image: url("../images/mycutie.jpeg");
     background-size: cover;
     background-position: 100%;
-    height: 200px;
-    padding: 30px 30px 30px 250px;
+    height: 600px;
+    width: 700px;
 }
 
 .assignment2 h3 {
     background-image: url("../images/pokemon-bg.jpeg");
     background-size: cover;
     background-position: 100%;
-    height: 200px;
-    padding: 30px 30px 30px 250px;
+    height: 600px;
+    width: 700px;
 }
 
 .assignment3 h3 {
     background-image: url("../images/90sfavcartoons-bg.jpeg");
     background-size: cover;
     background-position: 100%;
-    height: 200px;
-    padding: 30px 30px 30px 250px;
+    height: 600px;
+    width: 700px;
 }
 
 .work-description {
@@ -136,6 +146,7 @@ header nav ul li a {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
+    width: 90%;
     
 
 }
@@ -145,9 +156,22 @@ header nav ul li a {
     flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: row;
-    
-    
-    
+    width: 90%;
+}
+
+.work button {
+    background-color: lightpink;
+    color: midnightblue;
+    text-align: center;
+    float: left;
+    padding: 15px 0;
+    font-size: 30px;
+    width: 40%;
+}
+
+.work button:hover {
+    color: olive;
+    background-color: palegoldenrod;
 }
 
 /* Footer Starts */
