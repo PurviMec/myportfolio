@@ -1,25 +1,27 @@
-.hero {
-    background-image: url("../images/portfolio-hero.jpeg");
-}
 
-.run-buddy h3 {
-    background-image: url("");
-}
 
-.homework1 h3 {
-    background-image: url("../images/homework1.png");
-}
-
+/* HEADER START */
 header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 20px 35px;
-    background-color: aqua;
+    background-color: yellow;
     color: blue;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
 header a{
@@ -28,10 +30,44 @@ header a{
 }
 
 header h1 {
-    position: inline-block;
+    padding: 20px 0 20px 20px;
     font-weight: bold;
     font-size: 36px;
-    color: blue;
+    color: navy;
     margin: 0;
     text-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Hero Starts */
+.hero {
+    background-image: url("../images/portfolio-hero.jpeg");
+    background-size: cover;
+    background-position: 100%;
+    height: 500px;
+
+}
+
+.hero h2 {
+    text-align: right;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: navy;
+}
+
+/* WorK */
+.run-buddy h3 {
+    background-image: url("../images/hero-bg.jpeg");
+}
+
+.homework1 h3 {
+    background-image: url("../images/homework1.png");
+}
+
+/* Footer Starts */
