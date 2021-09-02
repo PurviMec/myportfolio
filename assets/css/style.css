@@ -71,15 +71,18 @@ header ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     flex-flow: row;
+    padding-top: 70px;
+    padding-bottom: 50px;
 }
 
 .intro p {
-    padding-left: 100px;
+    padding-left: 20px;
     font-size: 25px;
     color: rgb(3, 50, 190);
 }
 
 .intro h2 {
+   padding-left: 90px;
    font-size: 35px;
    color: rgb(4, 21, 71);
 }
@@ -95,6 +98,7 @@ header ul li a:hover {
 }
 
 .work h2 {
+    padding-left: 90px;
     font-size: 35px;
     width: 10%;
     color: rgb(4, 21, 71);
