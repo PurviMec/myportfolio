@@ -47,10 +47,13 @@ header nav ul li a {
 
 /* Hero Starts */
 .hero {
+    display: flex;
+    flex-wrap: wrap;
     background-image: url("../images/portfolio-hero.jpeg");
     background-size: cover;
     background-position: 100%;
     height: 500px;
+    padding: 30px 30px 30px 250px;
 
 }
 
@@ -60,6 +63,8 @@ header nav ul li a {
     font-family: 'Times New Roman', Times, serif;
     color: navy;
 }
+
+/* Intro Starts */
 
 /* WorK */
 .run-buddy h3 {
@@ -71,3 +76,38 @@ header nav ul li a {
 }
 
 /* Footer Starts */
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    background-color: teal;
+}
+
+footer h2 {
+    font-size: 36px;
+    padding: 20px 0 20px 30px;
+    color: yellow;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding-right: 30px;
+}
+
+footer ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: yellow;
+}
+
+footer ul li a:hover {
+    color: orangered;
+}
