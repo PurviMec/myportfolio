@@ -376,3 +376,27 @@ footer ul li a:hover {
        padding-left: 15px;
    }
 }
+
+@media screen and (max-width: 768px) {
+    footer ul {
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+    header {
+        justify-content: center;
+        width: 100%;
+    }
+
+    header h1 {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+
+    
+    
+
+    
+}
