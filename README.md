@@ -1,7 +1,7 @@
 # Purvi's Portfolio
 
 # Purpose
-
+To highlight my best work, accomplishments, skills and potential.
 
 # Build With
 * HTML
