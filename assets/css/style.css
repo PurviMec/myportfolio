@@ -180,6 +180,8 @@ header ul li a:hover {
    
 }
 
+
+
 .assignment2 h3 {
     background-image: url("../images/pokemon-bg.jpeg");
     background-size: cover;
@@ -223,6 +225,10 @@ footer {
 }
 
 footer h2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
     font-size: 36px;
     padding: 20px 0 20px 30px;
     color: rgb(255, 196, 0);
@@ -240,6 +246,10 @@ footer ul {
 }
 
 footer ul li a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
@@ -280,14 +290,89 @@ footer ul li a:hover {
   }
 
   .intro{
+      display: flex;
+      flex-wrap: wrap;
       justify-content: center;
+      padding: 0;
       
     }
 
   .intro h2 {
-      
+      padding-left: 110px;
+      text-align: center;
 
-  }
+    }
 
-  
+    .intro p {
+        justify-content: space-around;
+        text-align: left;
+        margin: 0 auto;
+        padding-left: 0;
+    }
+
+    .work {
+       justify-content: center;
+       
+    }
+    
+    .work h2 {
+      justify-content: center;
+      padding-right: 50px;
+    }
+
+    .work button {
+        width: 40%;
+        font-size: 20px;
+    }
+
+    .work button:hover {
+        display: flex;
+        color: olive;
+        background-color: palegoldenrod;
+    }
+
+    .work-description {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .run-buddy {
+        width: 100%;
+    }
+
+    .work-discription2 {
+        padding: 30px 0 30px 0;
+        flex-direction: row;
+    }
+
+    .homework1 {
+        margin: 0 auto;
+    }
+    .assignment1 {
+        padding-bottom: 30px;
+        margin: 0 auto;
+    }
+
+    .assignment2 {
+        padding-bottom: 30px;
+        margin: 0 auto;
+    }
+
+    .assignment3 {
+        margin: 0 auto;
+    }
+
+   footer h2 {
+       padding-left: 37vw;
+       font-size: 40px;
+       
+   }
+   footer ul {
+       padding-left: 25px;
+   }
+
+   footer ul li a {
+       font-size: 30px;
+       padding-left: 15px;
+   }
 }
