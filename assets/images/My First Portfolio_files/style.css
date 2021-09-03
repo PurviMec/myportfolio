@@ -133,6 +133,8 @@ header ul li a:hover {
     flex-direction: column;
     width: 80%;
     margin: 0 auto;
+    
+    
 }
 
 .work-discription2 {
@@ -143,6 +145,8 @@ header ul li a:hover {
     flex-direction: row;
     width: 80%;
     margin: 0 auto;
+    
+    
 }
 
 .run-buddy h3 {
@@ -152,10 +156,7 @@ header ul li a:hover {
     height: 400px;
     width: 80%;
     margin: 0 auto;
-}
-
-.run-buddy:hover {
-    width: 1700px;
+    
 }
 
 .homework1 h3 {
@@ -169,8 +170,6 @@ header ul li a:hover {
 .homework1 {
     padding-bottom: 30px;
 }
-
-
 
 .assignment1 h3 {
     background-image: url("../images/mycutie.jpeg");
@@ -209,8 +208,6 @@ header ul li a:hover {
     padding: 15px 0;
     font-size: 30px;
     width: 40%;
-    border-radius: 5px;
-    box-shadow: 2px 2px 6px #000;
 }
 
 .work button:hover {
@@ -385,12 +382,6 @@ footer ul li a:hover {
         justify-content: center;
     }
 
-    .work button:hover {
-        display: flex;
-        color: olive;
-        background-color: palegoldenrod;
-    }
-
 }
 
 @media screen and (max-width: 575px) {
@@ -445,11 +436,6 @@ footer ul li a:hover {
         justify-content: center;
     }
 
-    .work button:hover {
-        display: flex;
-        color: olive;
-        background-color: palegoldenrod;
-    }
     
     footer {
         justify-content: center;
