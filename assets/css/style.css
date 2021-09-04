@@ -93,7 +93,7 @@ header ul li a:hover {
     font-size: 20px;
     color: rgb(3, 50, 190);
     padding-top: 20px;
-    padding-left: 20px;
+    padding-left: 110px;
 }
 
 .intro h2 {
@@ -157,8 +157,8 @@ header ul li a:hover {
     background-image: url("../images/homework1.png");
     background-size: cover;
     background-position: 100%;
-    height: 250px;
-    width: 425px;
+    height: 350px;
+    width: 600px;
 }
 
 .homework1 h3:hover {
@@ -174,8 +174,8 @@ header ul li a:hover {
     background-image: url("../images/mycutie.jpeg");
     background-size: cover;
     background-position: 100%;
-    height: 250px;
-    width: 425px;
+    height: 350px;
+    width: 600px;
 }
 
 .assignment1 h3:hover {
@@ -187,8 +187,8 @@ header ul li a:hover {
     background-image: url("../images/pokemon-bg.jpeg");
     background-size: cover;
     background-position: 100%;
-    height: 250px;
-    width: 425px;
+    height: 350px;
+    width: 600px;
 }
 
 .assignment2 h3:hover {
@@ -200,8 +200,8 @@ header ul li a:hover {
     background-image: url("../images/90sfavcartoons-bg.jpeg");
     background-size: cover;
     background-position: 100%;
-    height: 250px;
-    width: 425px;
+    height: 350px;
+    width: 600px;
 }
 
 .assignment3 h3:hover {
