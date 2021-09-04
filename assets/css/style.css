@@ -275,6 +275,38 @@ footer ul li a:hover {
 /* Footer Ends */
 
 /* Media Screen */
+/* Media Screen for Mac-Book */
+@media  screen and (max-width: 2060px) {
+     
+    .intro p {
+        padding-left: 20px;
+    }
+
+    .homework1 h3 {
+        height: 250px;
+        width: 430px;
+    }
+
+    .assignment1 h3 {
+        height: 250px;
+        width: 430px;
+    }
+
+    .assignment2 h3 {
+        height: 250px;
+        width: 430px;
+    }
+
+    .assignment3 h3 {
+        height: 250px;
+        width: 430px;
+    }
+
+    .button {
+        font-size: 15px;
+    }
+}
+
 @media screen and (max-width: 980px) {
     header {
         padding-bottom: 0;
