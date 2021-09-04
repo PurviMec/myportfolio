@@ -394,12 +394,20 @@ footer ul li a:hover {
 }
 
 @media screen and (max-width: 575px) {
+
     header {
+        display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         width: 100%;
+        padding-left: 20px;
+        flex-direction: column;
     }
 
     .hero {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
         width: 100%;
         height: 400px;
     }
@@ -407,10 +415,13 @@ footer ul li a:hover {
     .hero h2 {
         font-size: 40px;
         font-weight: bolder;
-        padding-left: 30px;
+        
     }
 
     .intro h2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
         font-size: 40px;
         padding-left: 50px;
     }
@@ -421,28 +432,41 @@ footer ul li a:hover {
     }
 
     .work h2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-right: 0;
         font-size: 40px;
-        padding-left: 150px;
         padding-bottom: 20px;
     }
 
 
     .work {
+        display: flex;
+        flex-wrap: wrap;
         justify-content: center;
-        max-width: 100%;
+        width: 100%;
+        flex-direction: column;
     }
 
     .work-description {
-        justify-content: center;
-        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: column;
+        
     }
 
     .run-buddy {
-        max-width: 100%;
+        width: 100%;;
     }
     
     .work-discription2 {
-        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 100%;
     }
 
     .work button:hover {
@@ -452,6 +476,8 @@ footer ul li a:hover {
     }
     
     footer {
+        display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         
     }
@@ -461,3 +487,4 @@ footer ul li a:hover {
     }
 
 }
+
