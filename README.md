@@ -8,7 +8,7 @@ To highlight my best work, accomplishments, skills and potential.
 * CSS
 
 ## Website
-
+https://purvimec.github.io/myportfolio/
 
 ## GitHub
 https://github.com/PurviMec/myportfolio.git
