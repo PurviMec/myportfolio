@@ -74,10 +74,9 @@ header ul li a:hover {
     font-family: 'Times New Roman', Times, serif;
     color: navy;
     padding: 350px 40px 40px 0;
-}
+}/* Hero Ends */
 
 /* Intro Starts */
-
 .intro {
     display: flex;
     padding: 90px 0 50px 200px;
@@ -86,7 +85,6 @@ header ul li a:hover {
 }
 
 .intro p {
-    display: flex;
     flex-wrap: wrap;
     justify-content: right;
     width: 80%;
@@ -98,15 +96,15 @@ header ul li a:hover {
 }
 
 .intro h2 {
-    display: flex;
     flex-wrap: wrap;
     font-size: 60px;
     justify-content: left;
     width: 20%;
     color: rgb(4, 21, 71);
 }
+/* Intro ends */
 
-/* WorK */
+/* WorK Starts */
 .work {
     display: flex;
     justify-content: space-between;
@@ -116,10 +114,6 @@ header ul li a:hover {
 }
 
 .work h2 {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    flex-direction: row;
     font-size: 60px;
     width: 20%;
     color: rgb(4, 21, 71);
@@ -170,8 +164,6 @@ header ul li a:hover {
     padding-bottom: 30px;
 }
 
-
-
 .assignment1 h3 {
     background-image: url("../images/mycutie.jpeg");
     background-size: cover;
@@ -180,8 +172,6 @@ header ul li a:hover {
     width: 600px;
    
 }
-
-
 
 .assignment2 h3 {
     background-image: url("../images/pokemon-bg.jpeg");
@@ -218,6 +208,7 @@ header ul li a:hover {
     color: olive;
     background-color: palegoldenrod;
 }
+/* Work Ends */
 
 /* Footer Starts */
 footer {
@@ -263,46 +254,49 @@ footer ul li a {
 footer ul li a:hover {
     color: orangered;
 }
+/* Footer Ends */
+
 
 @media screen and (max-width: 980px) {
     header {
         padding-bottom: 0;
         justify-content: center;
         position: relative;
-  }
+    }
 
-  header h1 {
+    header h1 {
         width: 100%;
         text-align: center;
         font-size: 50px;
-  } 
+    } 
     
-  header nav ul {
+    header nav ul {
         margin-top: 5px;
         width: 100%;
         justify-content: center;
-  }
+    }
 
-  header nav ul li a {
+    header nav ul li a {
         font-size: 30px;
-  }
+    }
 
-  .hero h2 {
-      text-align: center;
-      width: 100%;
-  }
+    .hero h2 {
+        text-align: center;
+        width: 100%;
+        padding-top: 20px;
+    }
 
-  .intro{
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      padding: 0;
+    .intro{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
       
     }
 
-  .intro h2 {
-      padding-left: 110px;
-      text-align: center;
+    .intro h2 {
+        padding-left: 90px;
+        justify-content: center;
 
     }
 
@@ -319,8 +313,9 @@ footer ul li a:hover {
     }
     
     .work h2 {
-      justify-content: center;
-      padding-right: 50px;
+        padding-right: 200px;
+        padding-top: 20px;
+        padding-bottom: 10px;
     }
 
     .work button {
@@ -371,7 +366,7 @@ footer ul li a:hover {
        
    }
    footer ul {
-       padding-left: 25px;
+       padding-left: 70px;
    }
 
    footer ul li a {
@@ -421,9 +416,9 @@ footer ul li a:hover {
     .intro h2 {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
         font-size: 40px;
-        padding-left: 50px;
+        padding-left: 20px;
+        padding-top: 20px;
     }
 
     .intro p {
@@ -437,6 +432,7 @@ footer ul li a:hover {
         justify-content: center;
         padding-right: 0;
         font-size: 40px;
+        padding-left: 280px;
         padding-bottom: 20px;
     }
 
