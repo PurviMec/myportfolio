@@ -184,9 +184,9 @@ header ul li a:hover {
 }
 
 .assignment2 h3 {
-    background-image: url("../images/pokemon-bg.jpeg");
+    background-image: url("../images/medisearch-adminpage.jpg");
     background-size: cover;
-    background-position: 100%;
+    background-position: 55%;
     height: 350px;
     width: 600px;
 }
